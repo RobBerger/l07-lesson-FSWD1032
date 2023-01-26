@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.zip = void 0;
 class Contact {
     constructor(first, last) {
         this.firstName = first;
@@ -10,5 +11,4 @@ class Contact {
     }
 }
 exports.default = Contact;
-
-export const zip: number = 96003;
+exports.zip = 96003;
