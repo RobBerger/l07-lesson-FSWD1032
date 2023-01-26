@@ -12,4 +12,4 @@ class Contact {
     }
 }
 
-export { Contact as Person }
+export default Contact;

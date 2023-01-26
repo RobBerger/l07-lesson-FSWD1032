@@ -1,5 +1,5 @@
-import { Person } from './contact';
+import Contact from './contact';
 import * as values from './values';
 
-let newContact = new Person(values.firstName, values.lastName);
+let newContact = new Contact(values.firstName, values.lastName);
 console.log(newContact.fullName());
