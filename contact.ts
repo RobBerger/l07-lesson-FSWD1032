@@ -1,4 +1,4 @@
-export class Contact {
+class Contact {
     firstName: string;
     lastName: string
 
@@ -11,3 +11,5 @@ export class Contact {
         return this.firstName + " " + this.lastName;
     }
 }
+
+export { Contact as Person }
