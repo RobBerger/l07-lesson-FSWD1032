@@ -13,3 +13,4 @@ class Contact {
 }
 
 export default Contact;
+export const zip: number = 96003;
