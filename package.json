@@ -8,5 +8,8 @@
     },
     "dependencies": {
         "validator": "^13.7.0"
+    },
+    "devDependencies": {
+        "@types/validator": "^13.7.11"
     }
 }
