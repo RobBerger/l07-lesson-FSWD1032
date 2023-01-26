@@ -25,5 +25,5 @@ var __importStar = (this && this.__importStar) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 const contact_1 = require("./contact");
 const values = __importStar(require("./values"));
-let newContact = new contact_1.Contact(values.firstName, values.lastName);
+let newContact = new contact_1.Person(values.firstName, values.lastName);
 console.log(newContact.fullName());

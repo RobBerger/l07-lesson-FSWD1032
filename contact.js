@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.Contact = void 0;
+exports.Person = void 0;
 class Contact {
     constructor(first, last) {
         this.firstName = first;
@@ -10,4 +10,4 @@ class Contact {
         return this.firstName + " " + this.lastName;
     }
 }
-exports.Contact = Contact;
+exports.Person = Contact;
